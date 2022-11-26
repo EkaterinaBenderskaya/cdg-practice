@@ -1,1 +1,12 @@
-
+def message (age)
+    if age < 18
+        "you are young but it's never too early for codding"
+    else
+        "It's high time!"
+    end
+end
+print "Please, enter your Full name > "
+name = gets.chomp()
+print "Please, enter your Full age > "
+age = gets.to_i
+puts message (age)
