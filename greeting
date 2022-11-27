@@ -25,8 +25,8 @@ def foobar (first_number, second_number)
     end
 end
 
-puts "Введите первое число: "
+puts "Enter first number: "
 first_number = gets.to_i
-puts "Введите второе число: "
+puts "Enter second number: "
 second_number = gets.to_i
 foobar(first_number, second_number)
