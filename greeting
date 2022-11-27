@@ -15,3 +15,18 @@ print "Please, enter your Full age > "
 age = gets.to_i
 greeting (name)
 puts message (age)
+
+
+def foobar (first_number, second_number)
+    if first_number = 20 || second_number = 20
+        print second_number
+    else
+        puts first_number + second_number
+    end
+end
+
+puts "Введите первое число: "
+first_number = gets.to_i
+puts "Введите второе число: "
+second_number = gets.to_i
+foobar(first_number, second_number)
