@@ -4,3 +4,8 @@ def check_string
     else string.reverse
 end
 end
+
+
+
+
+
