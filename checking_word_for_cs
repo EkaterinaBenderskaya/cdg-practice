@@ -1,0 +1,6 @@
+def check_string
+    if string [2..1] == "CS"
+      2**string.length
+    else string.reverse
+end
+end
