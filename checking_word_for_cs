@@ -3,3 +3,18 @@ def check_string
       2**string.length
     else string.reverse
 end
+
+
+
+def pokemons_kit
+    puts "enter the quantity of pokemons"
+    quantity = gets.to_i
+    pokemons = [red, yellow, green, pink, white, black]
+    pokemons = [A, B, C, D]
+    print "enter name: "
+    name = gets.chop
+    print "enter colour: "
+    colour = gets.chomp
+    pokemon << {name => colour}
+    puts " your pokemon is: "
+end
